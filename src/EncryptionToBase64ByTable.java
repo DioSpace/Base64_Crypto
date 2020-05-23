@@ -49,8 +49,9 @@ public class EncryptionToBase64ByTable {
     }
 
     public static void main(String[] args) {
-        String originStr = "ee";
+        String originStr = "AAAAAA";
         byte[] bytes = originStr.getBytes();
+        System.out.println(bytes.length);
         String result = encode(bytes);
         System.out.println("result: " + result);
     }

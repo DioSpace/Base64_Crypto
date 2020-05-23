@@ -4,7 +4,7 @@ public class DecryptFromBase64ByTable {
             .toCharArray();
 
     public static void main(String[] args) {
-        String tryStr = "QAoOQMPFks1BsB7cbM3TQsXg30i9g3==";//MbT3sQgX039i3g==AQOoMQFPskB1Bsc7
+        String tryStr = "33==";
 
         String result = allBinaryStr(tryStr);//获取 二进制 字符串
         readCharByASCIIStr(result); //读取 二进制 字符串
@@ -50,11 +50,18 @@ public class DecryptFromBase64ByTable {
     //拼接所有 二进制 字符
     public static String allBinaryStr(String value) {
         String result = "";
-        for (int i = 0; i < value.length(); i++) {
-            int index = getIndex(value.charAt(i));//获取 每个字符的索引
+        String pureStr = removeFilledcharacters(value);//祛除 填充字符 =
+        for (int i = 0; i < pureStr.length(); i++) {
+            int index = getIndex(pureStr.charAt(i));//获取 每个字符的索引
             String indexBinary = get6BitBinary(index);//把索引转换成6位的二进制
             result += indexBinary; //将所有6位二进制拼接
         }
+        return result;
+    }
+
+    //祛除 填充字符 =
+    public static String removeFilledcharacters(String value) {
+        String result = value.replace("=", "");
         return result;
     }
 
@@ -79,7 +86,7 @@ public class DecryptFromBase64ByTable {
                 return i;
             }
         }
-        return 0;
+        return -1;
     }
 
 }
