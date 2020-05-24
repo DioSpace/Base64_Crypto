@@ -1,4 +1,4 @@
-public class EncryptionToBase64ByTable {
+public class EncryptionBase64_byother {
     private static final char[] legalChars = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN"
             .toCharArray();
 

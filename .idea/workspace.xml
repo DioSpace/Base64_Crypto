@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd6d1b6-b102-4cb8-9b2f-e85a28a8462b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EncryptionBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/DecryptFromBase64ByTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/DecryptFromBase64ByTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/EncryptionToBase64ByTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/EncryptionToBase64ByTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecryptFromBase64ByTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptFromBase64ByTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncryptionToBase64ByTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptionToBase64ByTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/DecryptFromBase64ByTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Base64_EncryptionAndDecryption/EncryptionToBase64ByTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecryptFromBase64ByTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncryptionToBase64ByTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptionBase64_byother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -53,9 +54,9 @@
       <recent name="F:\ideaProjects\Base64_EncryptionAndDecryption\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EncryptionBase64">
-    <configuration name="DecryptFromBase64ByTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecryptFromBase64ByTable" />
+  <component name="RunManager" selected="Application.DecryptBase64">
+    <configuration name="DecryptBase64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecryptBase64" />
       <module name="Base64_EncryptionAndDecryption" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptionToBase64ByTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EncryptionToBase64ByTable" />
+    <configuration name="EncryptionBase64_byother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EncryptionBase64_byother" />
       <module name="Base64_EncryptionAndDecryption" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,9 +78,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecryptBase64" />
         <item itemvalue="Application.EncryptionBase64" />
-        <item itemvalue="Application.EncryptionToBase64ByTable" />
-        <item itemvalue="Application.DecryptFromBase64ByTable" />
+        <item itemvalue="Application.EncryptionBase64_byother" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +104,7 @@
       <workItem from="1590221153216" duration="37000" />
       <workItem from="1590222751805" duration="8782000" />
       <workItem from="1590232722862" duration="2883000" />
+      <workItem from="1590316384331" duration="306000" />
     </task>
     <servers />
   </component>
@@ -114,22 +116,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="84" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1585713553751" />
-    <state width="1342" height="255" key="GridCell.Tab.0.bottom" timestamp="1590235607990">
+    <state x="213" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590316642833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590235607990" />
-    <state width="1342" height="255" key="GridCell.Tab.0.center" timestamp="1590235607990">
+    <state x="213" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590316642833" />
+    <state width="1342" height="205" key="GridCell.Tab.0.bottom" timestamp="1590316689657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590235607990" />
-    <state width="1342" height="255" key="GridCell.Tab.0.left" timestamp="1590235607990">
+    <state width="1342" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590316689657" />
+    <state width="1342" height="205" key="GridCell.Tab.0.center" timestamp="1590316689657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590235607990" />
-    <state width="1342" height="255" key="GridCell.Tab.0.right" timestamp="1590235607990">
+    <state width="1342" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590316689657" />
+    <state width="1342" height="205" key="GridCell.Tab.0.left" timestamp="1590316689657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590235607990" />
+    <state width="1342" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590316689657" />
+    <state width="1342" height="205" key="GridCell.Tab.0.right" timestamp="1590316689657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590316689657" />
     <state width="1342" height="255" key="GridCell.Tab.1.bottom" timestamp="1590235607991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
