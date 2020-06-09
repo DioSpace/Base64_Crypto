@@ -1,6 +1,6 @@
 package com.my;
 
-public class EncryptionBase64 {
+public class EncryptBase64 {
     //码表
     private static final char[] slegalChar = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN"
             .toCharArray();
@@ -77,6 +77,7 @@ public class EncryptionBase64 {
         }
         return total;
     }
+
 
     public static void main(String[] args) {
         String cipherttext = encrypt("AAAAAA");

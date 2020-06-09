@@ -4,13 +4,6 @@ public class DecryptBase64 {
     private static final char[] legalChars = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN"
             .toCharArray();
 
-    public static void main(String[] args) {
-        String tryStr = "33==";
-
-        String result = allBinaryStr(tryStr);//获取 二进制 字符串
-        readCharByASCIIStr(result); //读取 二进制 字符串
-    }
-
     //依次读取 二进制 字符串，并根据ASCII码表 转换成对应的字符，然后将得到的字符进行拼接
     public static void readCharByASCIIStr(String vaule) {
 //        System.out.println("origin string : \n" + vaule);
@@ -90,4 +83,10 @@ public class DecryptBase64 {
         return -1;
     }
 
+
+    public static void main(String[] args) {
+        String tryStr = "3q753q75";
+        String result = allBinaryStr(tryStr);//获取 二进制 字符串
+        readCharByASCIIStr(result); //读取 二进制 字符串
+    }
 }

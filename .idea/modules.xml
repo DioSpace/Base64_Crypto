@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Base64_EncryptionAndDecryption.iml" filepath="$PROJECT_DIR$/Base64_EncryptionAndDecryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base64_Crypto.iml" filepath="$PROJECT_DIR$/Base64_Crypto.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package com.my;
 
-public class EncryptionBase64_byother {
+public class EncryptBase64_byother {
     private static final char[] legalChars = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN"
             .toCharArray();
 
@@ -49,6 +49,7 @@ public class EncryptionBase64_byother {
 
         return buf.toString();
     }
+
 
     public static void main(String[] args) {
         String originStr = "AAAAAA";
