@@ -1,8 +1,8 @@
 package com.my;
 
 public class EncryptBase64_byother {
-    private static final char[] legalChars = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN"
-            .toCharArray();
+    //    private static final char[] legalChars = "i5jLW7S0GX6uf1cv3ny4q8es2Q+bdkYgKOIT/tAxUrFlVPzhmow9BHCMDpEaJRZN".toCharArray();
+    private static final char[] legalChars = {'.', '/', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
     public static String encode(byte[] data) {
         int start = 0;
@@ -52,10 +52,9 @@ public class EncryptBase64_byother {
 
 
     public static void main(String[] args) {
-        String originStr = "AAAAAA";
-        byte[] bytes = originStr.getBytes();
-        System.out.println(bytes.length);
+        byte[] bytes = {47, 58, 125, 124, 88, -25, -94, 97, 90, -104, 76, 31, 26, -80, 67, -40, 50, 30, 109, 21, 31, -127, 94, 38};
         String result = encode(bytes);
+        System.out.println("lenght: " + bytes.length);
         System.out.println("result: " + result);
     }
 }

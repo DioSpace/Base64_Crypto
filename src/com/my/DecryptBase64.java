@@ -5,7 +5,7 @@ public class DecryptBase64 {
             .toCharArray();
 
     //依次读取 二进制 字符串，并根据ASCII码表 转换成对应的字符，然后将得到的字符进行拼接
-    public static void readCharByASCIIStr(String vaule) {
+    public static String readCharByASCIIStr(String vaule) {
 //        System.out.println("origin string : \n" + vaule);
 //        System.out.println("length : " + vaule.length());
         int num = vaule.length() / 8;
@@ -18,7 +18,8 @@ public class DecryptBase64 {
 //            System.out.println(re);
             bytes[i] = re;
         }
-        System.out.println(bytes);
+        String result = new String(bytes);
+        return result;
     }
 
     // 将二进制字符串转换为char
@@ -87,6 +88,7 @@ public class DecryptBase64 {
     public static void main(String[] args) {
         String tryStr = "3q753q75";
         String result = allBinaryStr(tryStr);//获取 二进制 字符串
-        readCharByASCIIStr(result); //读取 二进制 字符串
+        String result2 = readCharByASCIIStr(result); //读取 二进制 字符串
+        System.out.println("result2:\n" + result2);
     }
 }
