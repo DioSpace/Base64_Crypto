@@ -18,8 +18,7 @@ public class DecryptBase64 {
 //            System.out.println(re);
             bytes[i] = re;
         }
-        String result = new String(bytes);
-        return result;
+        return new String(bytes);
     }
 
     // 将二进制字符串转换为char
